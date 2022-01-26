@@ -1,6 +1,5 @@
 import React from "react";
 import { useFetchGifs } from "../hooks/useFetchGifs";
-// import { useState } from "react/cjs/react.development";
 import { GifGridItem } from "./GifGridItem";
 
 export const GifGrid = ({ category }) => {
